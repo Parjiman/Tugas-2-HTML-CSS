@@ -1,0 +1,120 @@
+#Header{
+    width: 450%;
+    height: 20px;
+    padding: 5px;
+    margin: 3px;
+    border-style: solid;
+    background: rgb(255, 0, 0);
+    text-align: center;
+        
+}
+
+#Menu{
+    width: 450%;
+    height: 20px;
+    padding: 5px;
+    margin: 3px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-style: solid;
+    background: wheat;
+    text-align: center;
+    position: relative;
+}
+#Menu nav {
+   
+    width: auto;
+    display: flex;
+    height: 15px;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+}
+#Menu ul {
+    margin:0;
+}
+#Menu ul li {
+    display: inline-block;
+}
+#Menu a {
+    text-decoration: none;
+}
+
+#Countain {
+    background-color: rgb(218, 123, 68);
+    border-style: solid;
+    width: 453%;
+    height: 500px;
+    margin: 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    
+}
+
+.coloum1 {
+    border-style: solid;
+    width: 25rem;
+    height: 48%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.coloum1 video{
+    width: 100%;
+    height: 98%;
+}
+.coloum2 {
+    border-style: solid;
+    width: 25rem;
+    height: 48%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.coloum2 video {
+    width: 100%;
+    height: 98%;
+}
+
+.article {
+    position: absolute;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    top: 0;
+    right: 0;
+    width: 67.5%;
+    height: 98.8%;
+}
+
+#Footer{
+    width: 450%;
+    height: 20px;
+    padding: 5px;
+    margin: 3px;
+    border-style: solid;
+    background: whitesmoke;
+    text-align: center;
+    
+}
+
+body{
+    background-color: grey;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+}
